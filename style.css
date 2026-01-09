@@ -10,17 +10,30 @@
     border: none;
     border-radius: 4px;
 }
+
+.h1{
+     font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px ;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+ 
+
+
+
 .section-heading{
     text-align: center;
     margin: 0 auto;
 }
-.section-heading h1{
+/* .section-heading h1{
     font-size: 48px;
     font-weight: 700;
     color: #001931;
     margin-bottom: 16px;
     
-}
+} */
 .section-heading p{
     font-size: 16px;
     font-weight: 400;
@@ -92,6 +105,7 @@ nav .menu{
     padding: 70px 120px 309px;
     margin: 0 auto;
     vertical-align: middle;
+    justify-content: center;
   
 }
 #banner .banner-heading{
@@ -113,16 +127,16 @@ nav .menu{
     border: none;
     border-radius: 4px;
     border:1px solid white ;
+    width: 198px;
 
 }
-#banner .banner-button{
+.banner-container .button{
+    display: flex;
     gap: 16px;
     width: 34%;
     max-width: 465px;
     margin: 0 auto;
-    align-content: center;
-
-    
+    justify-content: center;
 }
 
 #notes{
@@ -194,36 +208,82 @@ nav .menu{
     width: 44%;
     max-width: 600px;
 }
-.solution-container .solution-heading{
+.solution-container .solution-content{
     width: 51%;
     max-width: 700px;
-        /* margin-top: 120px; 
-        margin-bottom: 120px;  */
-    padding: 102px 0px;
-    border: 1px solid black;
+    margin: 102px 0px ; 
 
 }
 .green2{
     color: #30B868;
-    
     line-height: 20px;
     font-weight: 500;
     font-size: 16px;
-        margin-bottom: 16px;
+    
 }
-.solution-heading h1{
+.solution-content h1{
     font-size: 48px;
     font-weight: 700;
-    margin-top: 0px ;
+    margin-top: 20px ;
     margin-bottom: 16px;
     color: #001931;
     
 }
-.solution-heading p{
+.solution-content p{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 40px;
-    color: #627382;
     text-align: left;
+    color: #627382;
+}
+.solution-content .solution-list{
+    display: flex;
+    gap: 6px;
+
+}
+.solution-list{
+     color: #001931;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+#challenge{
+    width: 85%;
+    max-width: 1360px;
+    margin:0 auto ;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 11px;
+
+}
+#challenge .challenge-container{
+    padding: 80px 40px;
+
+
+}
+#challenge .challenge-heading p{
+     font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #627382;
+
+}
+.challenge-btn{
+     background-color: #469165;
+    padding:16px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    box-shadow: 0px 10px 20px #00000023;
+}
+.challenge-more{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+
 }
