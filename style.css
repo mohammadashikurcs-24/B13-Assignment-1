@@ -19,10 +19,6 @@
     color: #001931;
 }
 
- 
-
-
-
 .section-heading{
     text-align: center;
     margin: 0 auto;
@@ -39,9 +35,7 @@
     font-weight: 400;
     color: #627382;
     line-height: 20px; 
-    margin-bottom: 40px;
-    
-
+    margin-bottom: 44px;
 }
 
 nav{
@@ -71,9 +65,9 @@ nav .menu{
     background-image: url(./assets/hero-bg.png);
     width: 100%;
     max-width: 1600px;
-    height: 674px;
+    max-height: 674px;
     vertical-align: middle;
-    margin: 0 auto;
+     margin: 0 auto; 
     
 }
 .banner-text p{
@@ -140,6 +134,7 @@ nav .menu{
 }
 
 #notes{
+    margin-top: 40px;
     padding: 0 120px;
 }
 .note-box{
@@ -155,25 +150,18 @@ nav .menu{
     border-radius: 8px;
     box-shadow:0px 0px 8px 6px #00000011;
     padding: 24px;
+    text-align: center;
 
 }
  
  .note-img{
     background-color: #F95555;
     padding: 14px;
-
-     width: 18%;
-     max-width: 60px;
-     max-height: 60px;
+     width: 60px;
+     height: 60px;
      border-radius: 100px;
-     margin: auto;
-    
- }
- .img{
-    width: 53%;
-    max-width: 32px;
-
-    
+     box-sizing: border-box;
+     margin: auto;  
  }
  .note-card h4{
     font-size: 24px;
@@ -227,7 +215,7 @@ nav .menu{
     margin-top: 20px ;
     margin-bottom: 16px;
     color: #001931;
-    
+ 
 }
 .solution-content p{
     font-size: 16px;
@@ -256,6 +244,7 @@ nav .menu{
     text-align: center;
     background-color: #F7F6F2;
     border-radius: 11px;
+    margin-bottom: 120px;
 
 }
 #challenge .challenge-container{
@@ -285,5 +274,49 @@ nav .menu{
     font-weight: 400;
     line-height: 20px;
     color: #627382;
+}
+#footer{
+    width: 100%;
+    max-width: 1600px;
+    background-color: #001931;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+#footer .footer-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px 120px 30px;
 
 }
+.upper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    align-items: center;
+}
+.socials p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.socials .icons{
+    display: flex;
+    gap: 16px;
+}
+.lower{
+    text-align: center;
+}
+.lower p{
+    color:#FFFFFF ;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+hr{
+    border: 1px solid #252c39;
+}
+
